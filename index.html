@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royalstore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+<div class="container">
+    <div class="navbar">
+    <div class="logo">
+<a href="index.html"><img src="images/logo.jpg"class="logo" width="125px" classalt=""></a>
+
+    </div>
+<nav>
+<ul id="Menuitems">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Product</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Contact</a></li>
+    <li><a href="Account.html">Account</a></li>
+</ul>
+</nav>
+<a href="shoppingcart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+<img src="images/menu.png" width="30px" height="30px"id="menu"
+onclick="menutoggle()">
+    </div>
+    <div class="row">
+    <div class="coln">
+    <h1>Give your Workout a <br>
+         New style!</h1>
+        <p>Succes isn't always about greatness its about consistency.consistent is an<br> key to sccsess</p>
+        <a href=""class="button">Explore Now </a>
+</div>
+<div class="coln">
+    <img src="images1/image1.png" width="70%">
+</div>
+</div>
+</div>
+</div>
+
+<!--Fetured products-->
+
+<div class="products">
+    <div class="smallcontainer">
+        <div class="row">
+            <div class="col-2">
+                <img src="images1/category-1.jpg " alt="">
+            </div>
+            <div class="col-2">
+                <img src="images1/category-2.jpg " alt="">
+            </div>
+            <div class="col-2">
+                <img src="images1/category-3.jpg" alt="">
+            </div>
+        </div>
+        
+        </div>
+        
+    </div>
+    <div class="smallcontainer">
+        <h3 class="title">Featured Products</h3>
+        <div class="row">
+            <div class="col-3"> 
+      <a href="productdetails.html"><img src="images1/Product1.jpg"></a>
+           <a href="productdetails.html"> <h4>Red Tshirt printed</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹600</p>
+        </div>
+        <div class="col-3"> 
+            <img src="images1/product-2.jpg">
+        <h4>Sneakers</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>₹400</p>
+
+    </div>
+ <div class="col-3"> 
+            <img src="images1/product-3.jpg">
+        <h4>Track pants</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>₹350</p>
+</div>
+<div class="col-3"> 
+    <img src="images1/product-4.jpg">
+<h4>Polo fit tshirt</h4>
+<div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-o"></i>
+</div>
+<p>₹550</p>
+</div>
+</div>
+
+<h4 class="title" >Most Popular</h4>
+
+<div class="row">
+    <div class="col-3"> 
+        <img src="images1/product-5.jpg">
+    <h4>White sports shoe</h4>
+    <div class="rating">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+    <p>₹400</p>
+</div>
+<div class="col-3"> 
+    <img src="images1/product-6.jpg">
+<h4> Black lightfit T-shirt</h4>
+<div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-half-o"></i>
+    <i class="fa fa-star-o"></i>
+</div>
+<p>₹400</p>
+
+</div>
+<div class="col-3"> 
+    <img src="images1/product-7.jpg">
+<h4>Socks for men</h4>
+<div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-o"></i>
+</div>
+<p>₹350</p>
+</div>
+<div class="col-3"> 
+<img src="images1/product-8.jpg">
+<h4>Mettalic Black watch</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+</div>
+<p>₹550</p>
+</div>
+</div>
+<div class="row">
+    <div class="col-3"> 
+        <img src="images1/product-9.jpg">
+    <h4>Black strap watch</h4>
+    <div class="rating">
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star" ></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+    <p>₹600</p>
+</div>
+<div class="col-3"> 
+    <img src="images1/product-10.jpg">
+<h4>Black sneaker</h4>
+<div class="rating">
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star-half-o"></i>
+    <i class="fa fa-star-o"></i>
+</div>
+<p>₹400</p>
+
+</div>
+<div class="col-3"> 
+    <img src="images1/product-11.jpg">
+<h4>Grey sports shoe</h4>
+<div class="rating">
+
+</div>
+<p>₹350</p>
+</div>
+<div class="col-3"> 
+<img src="images1/product-12.jpg">
+<h4>Track pant</h4>
+<div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+</div>
+<p>₹550</p>
+</div>
+</div>
+</div>
+
+
+
+<!--Offer-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images1/offer-1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images1/offer-2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images1/offer3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!--testimonial-->
+<div class="testimonial">
+<div class="smallcontainer">
+<div class="row">
+<div class="col-2">
+    <i class="fa fa-quote-left"></i>
+
+    <h6>Review by customer</h6>
+<p>
+    
+This band watch is a game-changer! Its sleek design adds sophistication to any outfit.  
+</p>
+<div class="rating">
+
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-o"></i>
+</div>
+
+<h3>Daisy</h3>
+</div>
+<div class="col-2">
+    <i class="fa fa-quote-left"></i>
+
+    <h6>Review by customer</h6>
+<p>
+    
+This band watch is a game-changer! Its sleek design adds sophistication to any outfit. 
+</p>
+<div class="rating">
+
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-o"></i>
+</div>
+
+<h3>George</h3>
+</div>
+
+<div class="col-2">
+    <i class="fa fa-quote-left"></i>
+    <h6>Review by customer</h6>
+<p>
+    
+This band watch is a game-changer! Its sleek design adds sophistication to any outfit.
+</p>
+<div class="rating">
+
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star" ></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-o"></i>
+</div>
+<h3>jazz</h3>
+</div>
+
+</div>
+
+</div>
+</div>
+<!--brands-->
+<div class="brand">
+<div class="smallcontainer">
+<div class="row">
+<div class="col-4">
+    <img src="images1/nike-logo.png" >
+
+</div>
+<div class="col-4">
+    <img src="images1/adidas-logo.png" >
+
+</div>
+<div class="col-4">
+    <img src="images1/puma-logo.png" >
+</div>
+<div class="col-4">
+    <img src="images1/Reebok-logo.png">
+
+</div>
+<div class="col-4">
+    <img src="images1/nb-logo.png">
+</div>
+</div>
+</div>
+
+<!--footer-->
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="footer-col-1">
+<h4>Download Our offcial app</h3>
+<p>Download our App Android and ios Mobile phone</p>
+<div class="app-logo">
+    <img src="images/play-store.png" alt="">
+    <img src="images/app-store.png" alt="">
+    </div>
+</div>
+<div class="footer-col-2">
+    <img src="images/logo-white.png" alt="">
+    <h5>Our purpose is Sustainabaly Make the pleasure and benefits of sports Accesbile</h5>
+    </div>
+    <div class="footer-col-3">
+        <h3>Links</h3>
+        <ul>
+            <li>Coupons</li>    
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affliate</li>
+        </ul>
+        </div>
+        <div class="footer-col-4">
+            <h3 class="text">Follow Us</h3>
+            <ul>
+                <li><img src="images/fb.png"class="img-icon" alt=""></li>
+
+                <li><img src="images/instagram.png"class="img-icon" alt=""></li>
+
+                <li><img src="images/x.png"class="img-icon" alt=""></li>
+            </ul>
+            </div>
+
+</div>
+<hr>
+<p class="Copyright">Copyright 2024</p>
+</div>
+</div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
